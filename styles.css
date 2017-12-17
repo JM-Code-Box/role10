@@ -1,0 +1,91 @@
+* {
+    list-style: none;
+    font-family: Roboto;
+
+}
+
+body {
+    text-align: center;
+    background: rgb(238,238,238);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 );
+}
+
+.container {
+    text-align: center;
+}
+
+/* --   Game Panel   -- */
+
+.gamePanel {
+    position: relative;
+    display: inline-block;
+}
+
+#roleNum {
+    margin: auto;
+    padding: 10px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: white;
+}
+
+/* --   game board   -- */
+
+.gameBox {
+    display: inline-block;
+    width: 300px;
+}
+
+.gamePieces li {
+    display: inline-block;
+    color: rgb(82, 82, 82);
+    margin: 5px 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px 20px;
+    border: 1px solid rgb(124, 124, 124);
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+}
+
+.gamePieces li:hover {
+    background-color: white;
+}
+
+.usedNum {
+    opacity: .1;
+}
+
+/* --   Notice Panels   -- */
+
+#wrongNotice {
+    width: 250px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#gameOverNotice {
+    width: 150px;
+    padding: 5px;
+    margin: auto;
+    font-size: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+}
+
+.hiddenClass {
+    display: none;
+}
+
+/* Media query */
+
+/* @media screen and (max-width: 600px) { */
+ 
+
+
+/* } End of 600px Media query */
