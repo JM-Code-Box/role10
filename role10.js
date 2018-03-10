@@ -49,8 +49,6 @@ var view = {
     },
     showRoleNumber: function () {
         var roleNum = document.querySelector('#roleNum');
-        // var btnText = document.querySelector('#btnStart');
-        // btnText.textContent = "Role Again";
         roleNum.textContent = gameObj.roleNum;
     },
     showRoleCount: function () {
